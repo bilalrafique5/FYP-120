@@ -2,7 +2,7 @@ from app.core.database import get_collection
 from app.models.attendance import AttendanceModel
 from datetime import date
 
-collection=get_collection("attendance")
+collection=get_collection("BSCS_7B")
 
 class AttendanceCRUD:
     def mark_attendance(self, attendance:AttendanceModel):
