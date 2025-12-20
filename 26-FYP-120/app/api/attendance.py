@@ -5,7 +5,7 @@ from datetime import date
 
 
 router=APIRouter()
-rud=AttendanceCRUD()
+crud=AttendanceCRUD()
 
 
 @router.post("/mark")
